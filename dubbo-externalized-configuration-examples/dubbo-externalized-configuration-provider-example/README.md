@@ -1,0 +1,1 @@
+https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/config/principle/

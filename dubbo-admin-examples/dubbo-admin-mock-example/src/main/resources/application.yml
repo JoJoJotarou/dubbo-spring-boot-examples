@@ -1,0 +1,14 @@
+server:
+  port: 18080
+dubbo:
+  application:
+    name: dubbo-admin-mock-example
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: nacos://192.168.120.17:8848
+  consumer:
+    check: false
+#    parameters:
+#      register-consumer-url: true

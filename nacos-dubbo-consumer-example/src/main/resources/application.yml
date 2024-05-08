@@ -1,0 +1,23 @@
+server:
+  port: 8081
+
+#spring:
+#  application:
+#    name: nacos-dubbo-consumer-example-1
+
+dubbo:
+  application:
+    name: nacos-dubbo-consumer-example
+    qos-host: 127.0.0.1
+    qos-port: 3333
+  protocol:
+    name: dubbo
+    port: -1
+
+  registry:
+    address: nacos://192.168.120.17:8848
+    parameters:
+      # 指定 namespace 隔离不同的用户或环境
+      #      namespace: ce0f8c5e-8113-402a-8dbe-e087b5c7b3a8
+      # dubbo 3.0.0 开始默认不注册消费者，需要手动开启
+      register-consumer-url: true

@@ -1,0 +1,9 @@
+dubbo:
+  application:
+    name: dubbo-externalized-configuration-example
+  config-center:
+    address: nacos://192.168.120.17:8848
+    namespace: 61dd3aa3-3352-48ae-bd96-16a4ee3ea80f
+    group: dubbo
+    app-config-file: dubbo.properties
+    config-file: dubbo.properties
