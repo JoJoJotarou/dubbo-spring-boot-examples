@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.xinji.boot</groupId>
-        <artifactId>xinji-spring-boot-parent</artifactId>
+        <groupId>com.coderay.boot</groupId>
+        <artifactId>coderay-spring-boot-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath/>
     </parent>
